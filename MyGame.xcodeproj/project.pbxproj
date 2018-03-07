@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A147BD1204ECE9500E78B7E /* 500円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A147BD0204ECE9500E78B7E /* 500円.png */; };
+		9A147BD3204ED09300E78B7E /* 100円.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A147BD2204ED09300E78B7E /* 100円.jpg */; };
+		9A147BD5204ED09F00E78B7E /* 50円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A147BD4204ED09F00E78B7E /* 50円.png */; };
+		9A147BD7204ED0AE00E78B7E /* 10円.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A147BD6204ED0AD00E78B7E /* 10円.jpg */; };
+		9A147BD9204ED0E600E78B7E /* 5円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A147BD8204ED0E600E78B7E /* 5円.png */; };
+		9A147BDB204ED17B00E78B7E /* 1円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A147BDA204ED17B00E78B7E /* 1円.png */; };
+		9A147BDD204EDCDC00E78B7E /* new100.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A147BDC204EDCDC00E78B7E /* new100.png */; };
+		9A6A5F69205033C3007D2F17 /* new10円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A5F68205033C3007D2F17 /* new10円.png */; };
 		9AA49986204D730D004FF5B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA49985204D730D004FF5B2 /* AppDelegate.swift */; };
 		9AA49988204D730D004FF5B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA49987204D730D004FF5B2 /* ViewController.swift */; };
 		9AA4998B204D730D004FF5B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA49989204D730D004FF5B2 /* Main.storyboard */; };
 		9AA4998D204D730D004FF5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA4998C204D730D004FF5B2 /* Assets.xcassets */; };
 		9AA49990204D730D004FF5B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA4998E204D730D004FF5B2 /* LaunchScreen.storyboard */; };
+		9AA49998204D7D0D004FF5B2 /* 1000円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA49997204D7D0D004FF5B2 /* 1000円.png */; };
+		9AA4999A204D7D15004FF5B2 /* 5000円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA49999204D7D15004FF5B2 /* 5000円.png */; };
+		9AA4999C204D7D1A004FF5B2 /* 10000円.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA4999B204D7D1A004FF5B2 /* 10000円.png */; };
+		9AA4999E204D7D20004FF5B2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA4999D204D7D20004FF5B2 /* back.png */; };
+		9AA499A0204D7D2B004FF5B2 /* お金.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA4999F204D7D2B004FF5B2 /* お金.png */; };
+		9AA499A2204D7D32004FF5B2 /* さようなら.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AA499A1204D7D32004FF5B2 /* さようなら.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A147BD0204ECE9500E78B7E /* 500円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "500円.png"; sourceTree = "<group>"; };
+		9A147BD2204ED09300E78B7E /* 100円.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100円.jpg"; sourceTree = "<group>"; };
+		9A147BD4204ED09F00E78B7E /* 50円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50円.png"; sourceTree = "<group>"; };
+		9A147BD6204ED0AD00E78B7E /* 10円.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10円.jpg"; sourceTree = "<group>"; };
+		9A147BD8204ED0E600E78B7E /* 5円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5円.png"; sourceTree = "<group>"; };
+		9A147BDA204ED17B00E78B7E /* 1円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1円.png"; sourceTree = "<group>"; };
+		9A147BDC204EDCDC00E78B7E /* new100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new100.png; sourceTree = "<group>"; };
+		9A6A5F68205033C3007D2F17 /* new10円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new10円.png"; sourceTree = "<group>"; };
 		9AA49982204D730D004FF5B2 /* MyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA49985204D730D004FF5B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AA49987204D730D004FF5B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,12 @@
 		9AA4998C204D730D004FF5B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AA4998F204D730D004FF5B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA49991204D730D004FF5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA49997204D7D0D004FF5B2 /* 1000円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1000円.png"; sourceTree = "<group>"; };
+		9AA49999204D7D15004FF5B2 /* 5000円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5000円.png"; sourceTree = "<group>"; };
+		9AA4999B204D7D1A004FF5B2 /* 10000円.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10000円.png"; sourceTree = "<group>"; };
+		9AA4999D204D7D20004FF5B2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		9AA4999F204D7D2B004FF5B2 /* お金.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "お金.png"; sourceTree = "<group>"; };
+		9AA499A1204D7D32004FF5B2 /* さようなら.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "さようなら.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,20 @@
 				9AA4998C204D730D004FF5B2 /* Assets.xcassets */,
 				9AA4998E204D730D004FF5B2 /* LaunchScreen.storyboard */,
 				9AA49991204D730D004FF5B2 /* Info.plist */,
+				9AA49997204D7D0D004FF5B2 /* 1000円.png */,
+				9AA49999204D7D15004FF5B2 /* 5000円.png */,
+				9AA4999B204D7D1A004FF5B2 /* 10000円.png */,
+				9A147BD0204ECE9500E78B7E /* 500円.png */,
+				9A147BD2204ED09300E78B7E /* 100円.jpg */,
+				9A147BDC204EDCDC00E78B7E /* new100.png */,
+				9A147BD4204ED09F00E78B7E /* 50円.png */,
+				9A147BD6204ED0AD00E78B7E /* 10円.jpg */,
+				9A6A5F68205033C3007D2F17 /* new10円.png */,
+				9A147BD8204ED0E600E78B7E /* 5円.png */,
+				9A147BDA204ED17B00E78B7E /* 1円.png */,
+				9AA4999D204D7D20004FF5B2 /* back.png */,
+				9AA4999F204D7D2B004FF5B2 /* お金.png */,
+				9AA499A1204D7D32004FF5B2 /* さようなら.png */,
 			);
 			path = MyGame;
 			sourceTree = "<group>";
@@ -123,9 +165,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A147BDB204ED17B00E78B7E /* 1円.png in Resources */,
+				9AA499A2204D7D32004FF5B2 /* さようなら.png in Resources */,
 				9AA49990204D730D004FF5B2 /* LaunchScreen.storyboard in Resources */,
+				9A147BD7204ED0AE00E78B7E /* 10円.jpg in Resources */,
+				9A147BD1204ECE9500E78B7E /* 500円.png in Resources */,
 				9AA4998D204D730D004FF5B2 /* Assets.xcassets in Resources */,
+				9AA4999A204D7D15004FF5B2 /* 5000円.png in Resources */,
+				9A147BD9204ED0E600E78B7E /* 5円.png in Resources */,
+				9A147BDD204EDCDC00E78B7E /* new100.png in Resources */,
 				9AA4998B204D730D004FF5B2 /* Main.storyboard in Resources */,
+				9A147BD3204ED09300E78B7E /* 100円.jpg in Resources */,
+				9AA499A0204D7D2B004FF5B2 /* お金.png in Resources */,
+				9AA4999E204D7D20004FF5B2 /* back.png in Resources */,
+				9A147BD5204ED09F00E78B7E /* 50円.png in Resources */,
+				9A6A5F69205033C3007D2F17 /* new10円.png in Resources */,
+				9AA4999C204D7D1A004FF5B2 /* 10000円.png in Resources */,
+				9AA49998204D7D0D004FF5B2 /* 1000円.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

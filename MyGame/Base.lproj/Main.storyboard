@@ -1,24 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C3j-Cg-PSQ">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="lVI-a5-0yY">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="C3j-Cg-PSQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k5O-ve-d1g">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jSi-Rh-UUp">
+                                <rect key="frame" x="0.0" y="288" width="320" height="250"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="XPJ-MS-3gb">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="83.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpA-xD-EXX">
+                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="83.5"/>
+                                                <state key="normal" image="10000円.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb5-Xr-20k">
+                                                <rect key="frame" x="106.5" y="0.0" width="107" height="83.5"/>
+                                                <state key="normal" image="5000円"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am4-ed-MXb">
+                                                <rect key="frame" x="213.5" y="0.0" width="106.5" height="83.5"/>
+                                                <state key="normal" image="1000円"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lRj-eT-577">
+                                        <rect key="frame" x="0.0" y="83.5" width="320" height="83"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNa-D9-FGD">
+                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="83"/>
+                                                <state key="normal" image="500円"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tad-ll-m3a">
+                                                <rect key="frame" x="106.5" y="0.0" width="107" height="83"/>
+                                                <state key="normal" image="new100.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYR-Fb-NgV">
+                                                <rect key="frame" x="213.5" y="0.0" width="106.5" height="83"/>
+                                                <state key="normal" image="50円"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IiN-4v-1m0">
+                                        <rect key="frame" x="0.0" y="166.5" width="320" height="83.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBu-Ua-f51">
+                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="83.5"/>
+                                                <state key="normal" image="new10円"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F91-O4-uQU">
+                                                <rect key="frame" x="106.5" y="0.0" width="107" height="83.5"/>
+                                                <state key="normal" image="5円"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gr-P6-MU2">
+                                                <rect key="frame" x="213.5" y="0.0" width="106.5" height="83.5"/>
+                                                <state key="normal" image="1円"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="U9O-uR-Q5t"/>
+                                </constraints>
+                            </stackView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ub4-8o-wiI">
+                                <rect key="frame" x="261" y="30" width="51" height="31"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPK-cd-l9v">
+                                <rect key="frame" x="10" y="30" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MW6-sx-nyM"/>
+                                    <constraint firstAttribute="width" constant="50" id="ShS-qP-mvC"/>
+                                </constraints>
+                                <state key="normal" image="さようなら"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBs-SE-c1W">
+                                <rect key="frame" x="42" y="118" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4N-qO-vVH">
+                                <rect key="frame" x="100" y="123" width="168" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52372628450000003" green="0.99873858689999995" blue="0.60889178509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YPV-wd-yby" firstAttribute="trailing" secondItem="Ub4-8o-wiI" secondAttribute="trailing" constant="10" id="6G7-uT-Opi"/>
+                            <constraint firstItem="RPK-cd-l9v" firstAttribute="top" secondItem="YPV-wd-yby" secondAttribute="top" constant="10" id="FoU-eW-amZ"/>
+                            <constraint firstItem="jSi-Rh-UUp" firstAttribute="leading" secondItem="YPV-wd-yby" secondAttribute="leading" id="VLd-t0-smZ"/>
+                            <constraint firstItem="RPK-cd-l9v" firstAttribute="leading" secondItem="YPV-wd-yby" secondAttribute="leading" constant="10" id="dvU-qV-VQG"/>
+                            <constraint firstItem="YPV-wd-yby" firstAttribute="trailing" secondItem="jSi-Rh-UUp" secondAttribute="trailing" id="mcj-Ea-rQN"/>
+                            <constraint firstItem="YPV-wd-yby" firstAttribute="bottom" secondItem="jSi-Rh-UUp" secondAttribute="bottom" constant="30" id="ogp-R4-h9a"/>
+                            <constraint firstItem="Ub4-8o-wiI" firstAttribute="top" secondItem="YPV-wd-yby" secondAttribute="top" constant="10" id="ysR-uy-5z2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YPV-wd-yby"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2U-7H-9hX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="80.625" y="-386.61971830985914"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="10000円.png" width="1600" height="723"/>
+        <image name="1000円" width="1600" height="752"/>
+        <image name="1円" width="1600" height="1133"/>
+        <image name="5000円" width="1600" height="735"/>
+        <image name="500円" width="1187" height="1187"/>
+        <image name="50円" width="1600" height="1133"/>
+        <image name="5円" width="1600" height="1133"/>
+        <image name="new100.png" width="1600" height="1133"/>
+        <image name="new10円" width="1600" height="1133"/>
+        <image name="さようなら" width="1600" height="1200"/>
+    </resources>
 </document>
