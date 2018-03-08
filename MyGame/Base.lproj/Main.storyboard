@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="lVI-a5-0yY">
             <objects>
-                <viewController id="C3j-Cg-PSQ" sceneMemberID="viewController">
+                <viewController id="C3j-Cg-PSQ" customClass="ViewController" customModule="MyGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k5O-ve-d1g">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,10 +116,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YPV-wd-yby"/>
                     </view>
+                    <connections>
+                        <outlet property="textLabel" destination="y4N-qO-vVH" id="4ML-Tp-aBN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F2U-7H-9hX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="80.625" y="-386.61971830985914"/>
+            <point key="canvasLocation" x="-1103" y="-489"/>
         </scene>
     </scenes>
     <resources>
