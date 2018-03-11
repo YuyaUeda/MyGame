@@ -117,6 +117,9 @@
                                     <constraint firstAttribute="width" constant="50" id="ShS-qP-mvC"/>
                                 </constraints>
                                 <state key="normal" image="さようなら"/>
+                                <connections>
+                                    <action selector="reTurn:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="AFU-XJ-Zt8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBs-SE-c1W">
                                 <rect key="frame" x="42" y="118" width="50" height="50"/>
