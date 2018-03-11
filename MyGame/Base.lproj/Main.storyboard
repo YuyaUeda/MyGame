@@ -27,48 +27,75 @@
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpA-xD-EXX">
                                                 <rect key="frame" x="0.0" y="0.0" width="106.5" height="83.5"/>
                                                 <state key="normal" image="10000円.png"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="evX-AH-aik"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb5-Xr-20k">
+                                            <button opaque="NO" tag="1" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb5-Xr-20k">
                                                 <rect key="frame" x="106.5" y="0.0" width="107" height="83.5"/>
                                                 <state key="normal" image="5000円"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="dqy-He-lXa"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am4-ed-MXb">
+                                            <button opaque="NO" tag="2" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am4-ed-MXb">
                                                 <rect key="frame" x="213.5" y="0.0" width="106.5" height="83.5"/>
                                                 <state key="normal" image="1000円"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="66n-H0-63l"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lRj-eT-577">
                                         <rect key="frame" x="0.0" y="83.5" width="320" height="83"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNa-D9-FGD">
+                                            <button opaque="NO" tag="3" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNa-D9-FGD">
                                                 <rect key="frame" x="0.0" y="0.0" width="106.5" height="83"/>
                                                 <state key="normal" image="500円"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="NZv-TQ-bJx"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tad-ll-m3a">
+                                            <button opaque="NO" tag="4" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tad-ll-m3a">
                                                 <rect key="frame" x="106.5" y="0.0" width="107" height="83"/>
                                                 <state key="normal" image="new100.png"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="UFc-Ij-HOb"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYR-Fb-NgV">
+                                            <button opaque="NO" tag="5" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYR-Fb-NgV">
                                                 <rect key="frame" x="213.5" y="0.0" width="106.5" height="83"/>
                                                 <state key="normal" image="50円"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="td6-gH-72E"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IiN-4v-1m0">
                                         <rect key="frame" x="0.0" y="166.5" width="320" height="83.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBu-Ua-f51">
+                                            <button opaque="NO" tag="6" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBu-Ua-f51">
                                                 <rect key="frame" x="0.0" y="0.0" width="106.5" height="83.5"/>
                                                 <state key="normal" image="new10円"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="Qpf-q8-z3s"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F91-O4-uQU">
+                                            <button opaque="NO" tag="7" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F91-O4-uQU">
                                                 <rect key="frame" x="106.5" y="0.0" width="107" height="83.5"/>
                                                 <state key="normal" image="5円"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="mcn-I6-hbE"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gr-P6-MU2">
+                                            <button opaque="NO" tag="8" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gr-P6-MU2">
                                                 <rect key="frame" x="213.5" y="0.0" width="106.5" height="83.5"/>
                                                 <state key="normal" image="1円"/>
+                                                <connections>
+                                                    <action selector="pushedMoneyButton:" destination="C3j-Cg-PSQ" eventType="touchUpInside" id="rgs-Y3-AKW"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -79,6 +106,9 @@
                             </stackView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ub4-8o-wiI">
                                 <rect key="frame" x="261" y="30" width="51" height="31"/>
+                                <connections>
+                                    <action selector="showHide:" destination="C3j-Cg-PSQ" eventType="valueChanged" id="o7z-Nc-rzU"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPK-cd-l9v">
                                 <rect key="frame" x="10" y="30" width="50" height="50"/>
